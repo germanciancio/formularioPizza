@@ -33,6 +33,13 @@ input, textarea{
     border: none;
 }
 
+
+::placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300;
+}
+
+
 textarea{
     min-height: 100px;
     max-height: 200px;
@@ -44,11 +51,9 @@ textarea{
    color: #fff;
    padding: 20px;
    border-style: outset;
+   cursor: pointer;
 }
 
-#boton:hover {
-    cursor: pointer;
-}
 
 @media (max-width: 480px) {
     form{
